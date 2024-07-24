@@ -1,1 +1,1 @@
-# PersonalProxyRule
+# Personal Rule Library
