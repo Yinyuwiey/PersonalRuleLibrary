@@ -1,3 +1,4 @@
+Markdown语法：https://markdown.com.cn/basic-syntax/
 # 一、普适wiki
 ## TUN模式与HTTP PROXY模式
 **模式的主要区别：**
