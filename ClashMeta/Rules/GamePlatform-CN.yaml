@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+  - DOMAIN-SUFFIX,steamchina.com
 
   # Epic
   - PROCESS-NAME,EpicWebHelper.exe
