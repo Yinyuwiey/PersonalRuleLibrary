@@ -1,5 +1,6 @@
 # 规则来源：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash
 # 筛选依据：https://github.com/v2fly/domain-list-community/blob/master/data 中各游戏平台域名文件、category-games合集文件中带@cn的域名
+# 筛选目标：让游戏平台可直连的下载进程走直连
 payload:
   # Steam
   - DOMAIN-SUFFIX,steamcontent.com
