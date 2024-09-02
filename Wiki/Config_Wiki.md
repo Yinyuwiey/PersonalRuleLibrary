@@ -26,9 +26,9 @@ TUN Only 模式更简单，适用于全局代理；而 HTTP Proxy & TUN 模式�
 
 **模式推荐选择：**
 
-① Windows端：只开启TUN模式。使全局流量都能先经代理软件处理，并规避uwp应用无法联网等问题。  
-② ios端：TUN Only。降低被软件检测到代理的概率，并增强代理软件dns拦截的有效性。  
-③ Android端：TUN（安卓端的真正意义上的TUN需要root权限，此处指安卓系统的VPN）+ HTTP Proxy，然后在“应用访问控制”中排除银行、交管、铁路、学习强国、数字人民币等APP（不需要开启“允许应用绕过VPN”，该选项可能导致fcm推送不可用）。
+① Windows端：只开启TUN模式。使全局流量都能先经代理软件处理，并规避uwp应用无法联网等问题。此外在设置中启用节点变化时自动关闭连接。  
+② ios端：TUN Only。降低被软件检测到代理的概率，并增强代理软件dns拦截的有效性。此外在设置中启用节点变化时自动关闭连接。  
+③ Android端：TUN（安卓端的真正意义上的TUN需要root权限，此处指安卓系统的VPN）+ HTTP Proxy，然后在“应用访问控制”中排除银行、交管、铁路、学习强国、数字人民币等APP（不需要开启“允许应用绕过VPN”，该选项可能导致fcm推送不可用）。此外在设置中启用节点变化时自动关闭连接。
 # 二、Clash Meta
 ## 备用GEO位置信息文件订阅链接
 geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"  
