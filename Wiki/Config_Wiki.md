@@ -40,3 +40,5 @@ mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 ## health-check
 health-check为true会使该订阅的节点进行定时延迟测速，并将测速结果同步到所有包含该订阅的节点的策略组中(即使策略组自身未开启定时延迟测速的情况下)  
 health-check为false会使该订阅的节点不定时延迟测速，在包含该订阅的节点的select策略组自身也未开启定时延迟测速的情况下，该订阅的节点不会被测速
+# geodata-mode
+默认false。设置geoip使用mmdb还是dat文件格式，不影响geosite和asn
