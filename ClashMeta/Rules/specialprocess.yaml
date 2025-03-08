@@ -1,4 +1,6 @@
 payload:
+  - PROCESS-NAME,HD-Player
+  - PROCESS-NAME,BlueStacks
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,fdm
